@@ -1,0 +1,76 @@
+Options -Indexes
+DirectoryIndex index.html
+
+# UTF-8 defaults for crawlers, parsers, and browsers
+AddDefaultCharset UTF-8
+AddType "text/html; charset=UTF-8" .html
+AddType "application/xml; charset=UTF-8" .xml
+AddType "text/xsl; charset=UTF-8" .xsl
+
+# ─────────────────────────────────────────────
+# www → non-www 301 redirect
+# ─────────────────────────────────────────────
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.haveandshare\.co\.za$ [NC,OR]
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://haveandshare.co.za/$1 [R=301,L]
+
+# Redirect index.html to /
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
+RewriteRule ^index\.html$ https://haveandshare.co.za/ [R=301,L]
+
+# Redirect legacy Contact Us route to the local contact page
+Redirect 301 /contact-us/ https://haveandshare.co.za/contact.html
+
+# Redirect retired social investment page to Reality Check
+Redirect 301 /corporate-social-investment.html https://haveandshare.co.za/reality-check.html
+Redirect 301 /corporate-social-investment/ https://haveandshare.co.za/reality-check.html
+
+# Redirect Service URLs to HTML files
+RewriteRule ^service/corporate-holistic-facilitation/?$ corporate-holistic-facilitation.html [R=301,L,NC]
+RewriteRule ^service/individual-holistic-coaching/?$ individual-holistic-coaching.html [R=301,L,NC]
+RewriteRule ^service/group-holistic-coaching/?$ group-holistic-coaching.html [R=301,L,NC]
+
+# ─────────────────────────────────────────────
+# Security Headers
+# ─────────────────────────────────────────────
+<IfModule mod_headers.c>
+    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+    Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com data:; img-src 'self' data: https:; connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://stats.g.doubleclick.net; frame-src https://www.youtube.com https://www.youtube-nocookie.com https://tidycal.com; base-uri 'self'; form-action 'self' https://forms.gle https://tidycal.com; frame-ancestors 'self'; upgrade-insecure-requests"
+</IfModule>
+
+# ─────────────────────────────────────────────
+# Gzip Compression
+# ─────────────────────────────────────────────
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/css application/javascript
+    AddOutputFilterByType DEFLATE application/json image/svg+xml
+    AddOutputFilterByType DEFLATE text/plain text/xml application/xml
+</IfModule>
+
+# ─────────────────────────────────────────────
+# Browser Caching
+# ─────────────────────────────────────────────
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/png  "access plus 1 year"
+    ExpiresByType image/gif  "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+    ExpiresByType image/x-icon "access plus 1 year"
+    ExpiresByType text/css   "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+    ExpiresByType text/html  "access plus 1 day"
+</IfModule>
+
+
+<IfModule mod_headers.c>
+    <FilesMatch "\.(?:webp|jpg|jpeg|png|gif|svg|ico|css|js)$">
+        Header set Cache-Control "public, max-age=31536000, immutable"
+    </FilesMatch>
+</IfModule>

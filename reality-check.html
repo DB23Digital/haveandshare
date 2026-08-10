@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1JF5JFX4HS"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-1JF5JFX4HS');
+    </script>
+
+    <title>Reality Check EcoMetric | Measure Your Organisation's Health</title>
+    <meta name="description" content="A rigorous, evidence-based read on what's really driving (or draining) your organisation. The Reality Check EcoMetric translates human-capital data for C-suite leaders.">
+    <meta name="keywords"
+        content="Reality Check EcoMetric, Organisational Health, C-Suite Leadership, Human Capital Balanced Scorecard, Workforce Risk, Board Reporting">
+    <link rel="canonical" href="https://haveandshare.co.za/reality-check.html">
+    <!-- Service + FAQ Schema -->
+    <script type="application/ld+json">
+    [
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Reality Check EcoMetric",
+        "url": "https://haveandshare.co.za/reality-check.html",
+        "provider": {
+          "@type": "Person",
+          "@id": "https://haveandshare.co.za/#claudina",
+          "name": "Claudina Hafenscher"
+        },
+        "description": "The Reality Check EcoMetric translates invisible human dynamics into clear, actionable data for C-suite leaders and HR teams. Discover workforce risks before they impact performance.",
+        "serviceType": "Organisational Diagnostic",
+        "areaServed": [{"@type": "Country", "name": "South Africa"}]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://haveandshare.co.za/"},
+          {"@type": "ListItem", "position": 2, "name": "Reality Check EcoMetric", "item": "https://haveandshare.co.za/reality-check.html"}
+        ]
+      }
+    ]
+    </script>
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Reality Check(tm) EcoMetric for C-Suite | Have &amp; Share">
+    <meta property="og:description"
+        content="The Reality Checkâ„¢ EcoMetric gives C-suite leaders a rigorous, evidence-based way to measure organisational health and translate human capital data into a competitive advantage.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://haveandshare.co.za/reality-check.html">
+    <meta property="og:image" content="https://haveandshare.co.za/assets/images/reality_check_hero.webp">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/Haveandsharelogo.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Allura&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript></noscript>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.min.css">
+
+    <style>
+        .feature-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        @media (min-width: 640px) {
+            .feature-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        .feature-card {
+            background: var(--color-surface);
+            padding: 2.5rem;
+            border-radius: var(--radius-lg);
+            border-top: 4px solid var(--color-secondary);
+            box-shadow: var(--shadow-sm);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .feature-icon {
+            font-size: 2.5rem;
+            color: var(--color-primary);
+            margin-bottom: 1.5rem;
+        }
+
+        .feature-card h3 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--color-text);
+            margin-bottom: 1rem;
+        }
+
+        .feature-card p {
+            color: var(--color-text-light);
+            font-size: 1rem;
+            line-height: 1.6;
+            margin: 0;
+        }
+        
+        /* Hero setup */
+        .pillar-hero {
+            padding-top: 160px;
+            padding-bottom: 80px;
+            background-color: var(--color-surface);
+            overflow: hidden;
+        }
+        
+        .pillar-hero-container {
+            display: grid;
+            grid-template-columns: 1fr 1.2fr;
+            gap: 4rem;
+            align-items: center;
+        }
+        
+        .pillar-hero-image {
+            width: 100%;
+            height: auto;
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-lg);
+            object-fit: cover;
+            aspect-ratio: 4/3;
+        }
+        
+        @media (max-width: 992px) {
+            .pillar-hero-container {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            .pillar-hero-image {
+                margin-top: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Overlay for Mobile -->
+    <div class="header-overlay" id="overlay" aria-hidden="true"></div>
+
+    <!-- Header / Navigation -->
+    <header class="header" id="header" role="banner">
+        <div class="container header-inner">
+            <a href="/" class="logo" aria-label="Have and Share Home">
+                <img alt="Have and Share Logo" class="logo-img" decoding="async" height="160" loading="eager" src="assets/images/haveandshare-logo-160.webp" width="160"/>
+                <span class="logo-text">Have & Share</span>
+            </a>
+            <nav class="nav" id="nav" role="navigation" aria-label="Main Navigation">
+                <ul class="nav-list">
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="/#methodology" class="nav-link active">Methodology</a></li>
+                    <li class="dropdown">
+                        <a href="/#services" class="nav-link">Programs <i class="fas fa-chevron-down"
+                                style="font-size: 0.8em; margin-left: 2px;"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="individual-holistic-coaching.html">Individual Coaching</a></li>
+                            <li><a href="group-holistic-coaching.html">Group Coaching</a></li>
+                            <li><a href="corporate-holistic-facilitation.html">Corporate Facilitation</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="project2025.html" class="nav-link">Project 2025</a></li>
+                    <li><a href="/#testimonials" class="nav-link">Stories</a></li>
+                    <li><a href="blog.html" class="nav-link">Blog</a></li>
+                </ul>
+                <div style="display: flex; align-items: center; gap: var(--space-3);">
+                    <button class="theme-toggle" aria-label="Toggle Color Mode"
+                        title="Toggle Color Mode">
+                        <i class="fas fa-palette"></i>
+                    </button>
+                    <a href="https://tidycal.com/claudinahafenscher/am-i-the-right-coach-for-you-1r628qz" target="_blank" class="btn btn-primary nav-cta" rel="noopener noreferrer">Book Discovery</a>
+                    <a href="https://wa.me/27828025941?text=Hi%20Claudina%2C%20I%27d%20like%20to%20find%20out%20more%20about%20your%20coaching%20services" target="_blank" class="btn nav-whatsapp" rel="noopener noreferrer">WhatsApp</a>
+                </div>
+            </nav>
+            <button class="mobile-menu-toggle" id="mobile-toggle" aria-label="Toggle menu" aria-expanded="false"
+                aria-controls="nav">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main role="main">
+
+        <!-- Pillar Hero Section -->
+        <section class="pillar-hero" id="hero" aria-labelledby="hero-heading">
+            <div class="container pillar-hero-container">
+                <div class="hero-content reveal-up">
+                    <span class="subtitle text-uppercase" style="color: var(--color-primary); font-weight: 600; letter-spacing: 1px; display: inline-block; margin-bottom: 1rem;"><i class="fas fa-chart-line"
+                            style="margin-right:8px;" aria-hidden="true"></i> Methodology Pillar 1</span>
+                    <h1 class="hero-title" id="hero-heading" style="font-size: clamp(2.5rem, 5vw, 3.5rem); margin-bottom: 1.5rem; line-height: 1.1;">Reality Checkâ„¢ EcoMetric for C-Suite Leaders</h1>
+                    <p class="hero-description" style="font-size: 1.25rem; color: var(--color-text-light); line-height: 1.6; margin-bottom: 2rem;">Turning Organisational Health Into Competitive Advantage.</p>
+                    <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                        <a href="#benefits" class="btn btn-primary">See Board Benefits</a>
+                        <a href="https://tidycal.com/claudinahafenscher/reality-check-assessment-call-with-claudina" target="_blank" rel="noopener" class="btn btn-outline" style="border: 2px solid var(--color-white); color: var(--color-white); background: transparent;">Consult With Us</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper reveal-up" style="animation-delay: 0.2s;">
+                    <img fetchpriority="high" alt="A diverse group of South African C-suite executives analyzing a strategic boardroom report together, measuring organisational health." class="pillar-hero-image" decoding="async" height="1024" loading="eager" src="assets/images/reality_check_hero.webp" width="1024"/>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Philosophy Section -->
+        <section class="section" id="philosophy" aria-labelledby="philosophy-heading">
+            <div class="container" style="max-width: 900px;">
+                <h2 id="philosophy-heading" class="sr-only">The Core of Reality Check</h2>
+                
+                <div class="content-block reveal-up" style="font-size: 1.125rem; line-height: 1.8; color: var(--color-text);">
+                    <p style="margin-bottom: 1.5rem;">Around the world â€“ and particularly in South Africa's volatile market â€“ CEOs and executive teams are under pressure to deliver growth while managing rising people, culture, and reputation risks. Organisational health is no longer a "soft" issue; it is a leading indicator of execution, resilience, and financial performance. The Reality Checkâ„¢ EcoMetric gives C-suite leaders a rigorous, evidence-based way to see how well their organisation is really functioning, long before problems show up in the P&L.</p>
+                    
+                    <p style="margin-bottom: 1.5rem;">Instead of relying on anecdote or engagement scores that don't move the needle, Reality Checkâ„¢ translates employee experience and behaviour into a Human Capital Balanced Scorecard and Well-Being Indicator (WBIâ„¢). These metrics sit alongside revenue, margin, and operational KPIs, enabling executives and boards to make confident decisions about strategy, structure, and investment in people.</p>
+                    
+                    <p style="margin-bottom: 1.5rem;">For South African organisations, it offers a globally relevant methodology that is sensitive to local realities â€“ and scalable across regions as the business grows.</p>
+
+                    <div style="background: var(--color-surface); padding: 2rem; border-left: 4px solid var(--color-secondary); border-radius: var(--radius-md); margin-top: 2.5rem; margin-bottom: 2.5rem;">
+                        <p style="margin: 0; font-weight: 500; font-size: 1.2rem;">As an accredited Reality Checkâ„¢ coach, Have & Share works directly with executive teams to interpret these insights, align them with strategic priorities, and turn data into clear, board-ready action plans.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- What CEOs and Boards Gain -->
+        <section class="section bg-dim" id="benefits" aria-labelledby="benefits-heading">
+            <div class="container">
+                <div class="text-center reveal-up" style="max-width: 800px; margin: 0 auto; margin-bottom: 4rem;">
+                    <h2 class="section-title" id="benefits-heading">What CEOs and Boards Gain From Reality Checkâ„¢</h2>
+                    <p class="section-description">For C-suite leaders and boards, Reality Checkâ„¢ is first and foremost a governance, risk, and performance tool. It provides a defensible, repeatable way to measure organisational health â€“ and to link it explicitly to business outcomes. That matters when you are accountable to shareholders, regulators, and talent markets that increasingly scrutinise culture and people risk.</p>
+                </div>
+
+                <div class="feature-grid reveal-up" style="animation-delay: 0.2s;">
+                    
+                    <!-- Feature 1 -->
+                    <div class="feature-card">
+                        <i class="fas fa-radar feature-icon" style="color: #e8747c;"></i>
+                        <h3>Early visibility of systemic risk</h3>
+                        <p>Reality Checkâ„¢ surfaces issues such as burnout, conflict, silos, weak leadership behaviours, and low trust before they crystallise into lost revenue, customer churn, or reputational damage. Executives gain an "early warning radar" across regions, functions, and levels.</p>
+                    </div>
+
+                    <!-- Feature 2 -->
+                    <div class="feature-card">
+                        <i class="fas fa-chart-pie feature-icon" style="color: #f5a623;"></i>
+                        <h3>Better capital allocation and ROI on people investments</h3>
+                        <p>By quantifying where health is strong or fragile, the EcoMetric helps the C-suite target investment â€“ leadership programmes, restructuring, technology, or workforce initiatives â€“ where it will create the most value. This enables a clearer ROI story for spend on culture, change, and wellbeing.</p>
+                    </div>
+
+                    <!-- Feature 3 -->
+                    <div class="feature-card">
+                        <i class="fas fa-file-contract feature-icon" style="color: #4DA8DA;"></i>
+                        <h3>A clear narrative for boards and integrated reports</h3>
+                        <p>The Human Capital Balanced Scorecard and Well-Being Indicator provide coherent metrics and a storyline executives can take to the board: what the health of the organisation is, how it affects strategy execution, and what is being done about it. This strengthens governance and satisfies growing expectations around human capital disclosure.</p>
+                    </div>
+
+                    <!-- Feature 4 -->
+                    <div class="feature-card">
+                        <i class="fas fa-globe-africa feature-icon" style="color: var(--color-secondary);"></i>
+                        <h3>Scalable insight for global leadership</h3>
+                        <p>For organisations expanding from South Africa into other markets, Reality Checkâ„¢ offers a consistent framework that can be applied across countries and business units. The C-suite can compare health profiles across geographies, identify patterns, and ensure that culture and strategy stay aligned as the organisation grows.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Bottom CTA -->
+        <section class="section CTA" style="padding-top: 6rem; padding-bottom: 6rem;">
+            <div class="container text-center reveal-up" style="max-width: 800px; margin: 0 auto;">
+                <i class="fas fa-handshake" style="font-size: 3rem; color: var(--color-primary); margin-bottom: 1.5rem;"></i>
+                <h3 style="font-family: 'Outfit', sans-serif; font-size: 2rem; margin-bottom: 1.5rem; color: var(--color-text);">Translating Insight into Strategic Execution</h3>
+                <p style="font-size: 1.125rem; color: var(--color-text-light); margin-bottom: 2rem; line-height: 1.6;">With an accredited partner like Have & Share, C-suite leaders do not just receive a report â€“ they gain an experienced thinking partner who can help translate insight into strategic decisions, leveraging <a href="mbit-coaching.html" style="color: var(--color-secondary); font-weight: 500; text-decoration: underline;">mBIT</a> and <a href="positive-intelligence-coaching.html" style="color: var(--color-secondary); font-weight: 500; text-decoration: underline;">PQ Intelligence</a> for concrete execution plans.</p>
+                <div style="display: flex; gap: 1rem; justify-content: center;">
+                    <a href="https://tidycal.com/claudinahafenscher/reality-check-assessment-call-with-claudina" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Book a C-Suite Consultation</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <h3 class="footer-logo">Have & Share</h3>
+                <p>Empowering individuals and organizations to live more intentional, balanced, and impactful lives through life coaching.</p>
+                <div class="social-links" aria-label="Social Media Links">
+                    <a href="https://www.linkedin.com/in/claudina-hafenscher/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com/ClaudinaHaveandShare" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/haveandshare/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://twitter.com/CHafenscher" aria-label="Twitter" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                    <a href="https://wa.me/27828025941?text=Hi%20Claudina%2C%20I%27d%20like%20to%20find%20out%20more%20about%20your%20coaching%20services" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links-wrapper">
+                <div class="footer-links" aria-label="Company Links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="/#methodology">Methodology</a></li>
+                        <li><a href="/#services">Services</a></li>
+                        <li><a href="/#testimonials">Stories</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links" aria-label="Contact Information">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-info-list">
+                        <li><i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:claudina@haveandshare.co.za">claudina@haveandshare.co.za</a></li>
+                        <li><i class="fas fa-phone" aria-hidden="true"></i> <a href="tel:+27828025941">+27 82 802 5941</a></li>
+                        <li><i class="fas fa-location-dot" aria-hidden="true"></i> 13 Morester, Glen Marais, Kempton Park, 1619, Gauteng, South Africa</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Have and Share Coaching. All Rights Reserved. | <a href="privacy-policy.html" style="color:inherit; text-decoration:underline;">Privacy Policy</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
+
+
+
+
+
+
+

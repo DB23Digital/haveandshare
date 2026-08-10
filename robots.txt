@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://haveandshare.co.za/sitemap.xml

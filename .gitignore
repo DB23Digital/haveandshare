@@ -1,0 +1,36 @@
+# Internal planning / audit docs — not site files
+ACTION-PLAN*.md
+CODER_BRIEF.md
+FULL-AUDIT-REPORT*.md
+HOMEPAGE-CONVERSION-BRIEF.md
+LOCAL-SEO-ANALYSIS-*.md
+MARKETING-STRATEGY.md
+WEBSITE-DESIGNER-SEO-DRIFT-FIX-REPORT*.md
+deployment-note-*.md
+feedback.md
+sxo-analysis.md
+walkthrough-seo.md
+seo-drift-dashboard-*.html
+cluster-map.html
+cluster-plan.json
+cluster-plan.md
+cluster-briefs/
+tools/
+convert_to_webp.py
+indexnow-submit-*.json
+/Instructional Design Theories.pdf
+assets/documents/60day-plan.md
+assets/documents/HaveAndShare-60Day-Lead-Plan.docx
+assets/documents/MEASUREMENT-SETUP.md
+assets/documents/content_seo_strategy.md
+assets/documents/have-and-share-seo-target-audience.docx
+assets/documents/What is Positive Intelligence.md
+assets/documents/What is comensa.md
+assets/documents/What is mbit.md
+
+# Backups
+*.zip
+
+# Agent tooling / deploy-staging snapshots
+.agent/
+.claude/
