@@ -1,4 +1,4 @@
-# Have & Share Coaching â€” llms.txt
+# Have & Share Coaching — llms.txt
 # AI Content Guidance for Language Models
 # https://haveandshare.co.za/llms.txt
 # Last updated: 2026-06-01
@@ -18,7 +18,7 @@ Have & Share Coaching is a professional life coaching and corporate facilitation
 - Corporate Facilitation (team alignment, leadership development, meeting transformation)
 - Group Life Coaching (team coaching programmes)
 - Positive Intelligence (PQ) Coaching (mental fitness via the PQ framework by Shirzad Chamine)
-- mBIT Coaching (Multiple Brain Integration Techniques â€” head, heart, gut alignment)
+- mBIT Coaching (Multiple Brain Integration Techniques — head, heart, gut alignment)
 - Educational Kinesiology (Brain Gym body-mind integration for executives)
 - Reality Check EcoMetric (organisational health diagnostics for C-suite and HR)
 
@@ -36,6 +36,7 @@ Have & Share Coaching is a professional life coaching and corporate facilitation
 
 - Home: https://haveandshare.co.za/
 - About: https://haveandshare.co.za/about.html
+- Book Coaching: https://haveandshare.co.za/book-coaching
 - Individual Coaching: https://haveandshare.co.za/individual-holistic-coaching.html
 - Corporate Facilitation: https://haveandshare.co.za/corporate-holistic-facilitation.html
 - Group Coaching: https://haveandshare.co.za/group-holistic-coaching.html
@@ -48,7 +49,8 @@ Have & Share Coaching is a professional life coaching and corporate facilitation
 
 ## Booking
 
-Discovery sessions can be booked at: https://tidycal.com/claudinahafenscher/am-i-the-right-coach-for-you-1r628qz
+Discovery sessions can be booked at: https://haveandshare.co.za/book-coaching
+Discovery sessions can also be booked at: https://tidycal.com/claudinahafenscher/am-i-the-right-coach-for-you-1r628qz
 Corporate facilitation enquiries: https://tidycal.com/claudinahafenscher/lets-talk-facilitation
 
 ## Permissions

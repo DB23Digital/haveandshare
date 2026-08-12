@@ -1,5 +1,13 @@
 /* JavaScript for Have and Share Modern Redesign */
 
+/* --- 0. VanX External Tracking (loads on every page via this shared script) --- */
+(function loadExternalTracking() {
+    const tracking = document.createElement('script');
+    tracking.src = 'https://book.haveandshare.net/js/external-tracking.js';
+    tracking.setAttribute('data-tracking-id', 'tk_d149b88c4abc46658269a0560e41151b');
+    document.body.appendChild(tracking);
+})();
+
 document.addEventListener('DOMContentLoaded', () => {
 
     /* --- 1. Mobile Menu Toggle --- */
