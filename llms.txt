@@ -1,11 +1,11 @@
 # Have & Share Coaching — llms.txt
 # AI Content Guidance for Language Models
 # https://haveandshare.co.za/llms.txt
-# Last updated: 2026-06-01
+# Last updated: 2026-08-24
 
 ## About This Site
 
-Have & Share Coaching is a professional life coaching and corporate facilitation practice founded by Claudina Hafenscher, based in Glen Marais, Gauteng, South Africa.
+Have & Share Coaching is a professional life coaching and corporate facilitation practice founded by Claudina Hafenscher, based in Glen Marais, Gauteng, South Africa. Claudina specialises in helping high-achieving professionals recognise and work through the self-doubt pattern behind imposter syndrome, alongside broader life coaching and corporate facilitation work.
 
 **Operator:** Claudina Hafenscher
 **Email:** claudina@haveandshare.co.za
@@ -47,11 +47,18 @@ Have & Share Coaching is a professional life coaching and corporate facilitation
 - Blog: https://haveandshare.co.za/blog.html
 - Privacy Policy: https://haveandshare.co.za/privacy-policy.html
 
+## Imposter Syndrome & Self-Doubt (Blog)
+
+- https://haveandshare.co.za/blog-imposter-syndrome-coaching-explained.html
+- https://haveandshare.co.za/blog-high-performer-imposter-syndrome.html
+- https://haveandshare.co.za/blog-overcome-imposter-syndrome.html
+- https://haveandshare.co.za/blog-executive-self-doubt.html
+- https://haveandshare.co.za/blog-find-purpose-after-burnout.html
+- https://haveandshare.co.za/blog-toxic-work-environment.html
+
 ## Booking
 
 Discovery sessions can be booked at: https://haveandshare.co.za/book-coaching
-Discovery sessions can also be booked at: https://tidycal.com/claudinahafenscher/am-i-the-right-coach-for-you-1r628qz
-Corporate facilitation enquiries: https://tidycal.com/claudinahafenscher/lets-talk-facilitation
 
 ## Permissions
 

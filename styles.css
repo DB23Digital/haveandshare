@@ -2046,3 +2046,104 @@ img {
         width: 100%;
     }
 }
+
+/* Personal story (about.html) */
+.story-article {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+.story-byline {
+    font-size: 0.95rem;
+    color: var(--color-text-light);
+    margin-bottom: var(--space-4);
+}
+
+.story-byline a {
+    color: var(--color-secondary);
+    font-weight: 700;
+}
+
+.story-hero,
+.story-figure {
+    margin: var(--space-5) 0;
+}
+
+.story-hero img,
+.story-figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-sm);
+}
+
+.story-figure.is-portrait img {
+    max-width: 420px;
+    margin: 0 auto;
+}
+
+.story-figure figcaption,
+.story-hero figcaption {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: var(--color-text-light);
+    margin-top: var(--space-2);
+    text-align: center;
+}
+
+.story-article h3 {
+    font-size: 1.5rem;
+    margin: var(--space-6) 0 var(--space-2);
+}
+
+.story-article p {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    margin-bottom: var(--space-3);
+    color: var(--color-text-light);
+}
+
+.story-article .story-lead {
+    font-size: 1.25rem;
+    color: var(--color-text-main);
+}
+
+.story-article p.story-line {
+    margin-bottom: var(--space-1);
+}
+
+.story-article p a {
+    color: var(--color-secondary);
+    font-weight: 700;
+}
+
+.story-pullquote {
+    margin: var(--space-5) 0 0;
+    padding: var(--space-3) var(--space-4);
+    border-left: 4px solid var(--color-secondary);
+    background-color: var(--color-bg-alt);
+    border-radius: 0 var(--border-radius-md) var(--border-radius-md) 0;
+}
+
+.story-article .story-pullquote p {
+    margin: 0;
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    color: var(--color-text-main);
+}
+
+@media screen and (max-width: 768px) {
+    .story-article h3 {
+        font-size: 1.3rem;
+        margin-top: var(--space-5);
+    }
+
+    .story-article p {
+        font-size: 1.05rem;
+    }
+
+    .story-pullquote {
+        padding: var(--space-2) var(--space-3);
+    }
+}

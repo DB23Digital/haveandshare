@@ -1,6 +1,15 @@
 Options -Indexes
 DirectoryIndex index.html
 
+# ─────────────────────────────────────────────
+# Block internal working files from ever being served
+# (SEO strategy docs, cPanel backups) - belt-and-braces
+# in case a deploy accidentally includes them
+# ─────────────────────────────────────────────
+<FilesMatch "^(cluster-plan\.(json|md)|cluster-map\.html|seo-drift-dashboard.*\.html|.*\.zip)$">
+    Require all denied
+</FilesMatch>
+
 # UTF-8 defaults for crawlers, parsers, and browsers
 AddDefaultCharset UTF-8
 AddType "text/html; charset=UTF-8" .html
@@ -21,6 +30,12 @@ RewriteRule ^index\.html$ https://haveandshare.co.za/ [R=301,L]
 
 # Redirect legacy Contact Us route to the local contact page
 Redirect 301 /contact-us/ https://haveandshare.co.za/contact.html
+
+# Redirect legacy WordPress-era URLs to current equivalents
+Redirect 301 /about-us/ https://haveandshare.co.za/about.html
+Redirect 301 /blog/ https://haveandshare.co.za/blog.html
+Redirect 301 /portfolio/careers-development/ https://haveandshare.co.za/blog.html
+Redirect 301 /service-category/coaching/ https://haveandshare.co.za/individual-holistic-coaching.html
 
 # Redirect retired social investment page to Reality Check
 Redirect 301 /corporate-social-investment.html https://haveandshare.co.za/reality-check.html

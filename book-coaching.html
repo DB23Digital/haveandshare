@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-ZA">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,7 @@
     gtag('js', new Date());
     gtag('config', 'G-1JF5JFX4HS');
   </script>
-  <script
+  <script defer
     src="https://book.haveandshare.net/js/external-tracking.js"
     data-tracking-id="tk_d149b88c4abc46658269a0560e41151b">
   </script>
@@ -34,7 +34,7 @@
   <link rel="icon" type="image/png" href="assets/images/Haveandsharelogo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Allura&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Allura&display=swap" rel="stylesheet" media="print" onload="this.media='all'"><noscript><link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Allura&display=swap" rel="stylesheet"></noscript>
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
   <link rel="stylesheet" href="styles.min.css">
 
@@ -77,7 +77,7 @@
         <li><a href="about.html" class="nav-link">About</a></li>
         <li><a href="/#methodology" class="nav-link">Methodology</a></li>
         <li class="dropdown">
-          <a href="/#services" class="nav-link">Programs <i class="fas fa-chevron-down" style="font-size: 0.8em; margin-left: 2px;"></i></a>
+          <a href="/#services" class="nav-link">Programmes <i class="fas fa-chevron-down" style="font-size: 0.8em; margin-left: 2px;"></i></a>
           <ul class="dropdown-menu">
             <li><a href="individual-holistic-coaching.html">Individual Coaching</a></li>
             <li><a href="group-holistic-coaching.html">Group Coaching</a></li>
@@ -140,7 +140,8 @@
     <div class="container" style="max-width: 850px;">
       <div class="section-header text-center reveal-up">
         <h2 class="section-title" id="booking-heading">Choose a Time That Suits You</h2>
-        <p>Pick a slot below and Claudina will confirm your session by email.</p>
+        <p>Pick a slot below and Claudina will confirm your session by email &mdash; usually within 24 hours.</p>
+        <p style="font-size: 0.9rem; opacity: 0.85;"><i class="fas fa-shield-heart" aria-hidden="true"></i> COMENSA-accredited coach &middot; trusted by clients across South Africa and globally</p>
       </div>
       <div class="glass-panel" style="padding: 1.5rem; border-radius: var(--radius-lg); box-shadow: var(--shadow-sm);">
         <iframe
@@ -148,12 +149,23 @@
           allow="payment"
           style="width: 100%; border: none; overflow: hidden;"
           scrolling="no"
-          id="ItPZNnfS7Tgn5XR41HeQ_1786475669505">
+          id="ItPZNnfS7Tgn5XR41HeQ_1786475669505"
+          onload="var fb=document.getElementById('booking-fallback'); if(fb){fb.style.display='none';}">
         </iframe>
         <br>
         <script
           src="https://book.haveandshare.net/js/form_embed.js"
           type="text/javascript">
+        </script>
+        <p id="booking-fallback" style="display:none; text-align:center; margin-top: var(--space-3);">
+          Calendar not loading? <a href="https://wa.me/27828025941?text=Hi%20Claudina%2C%20I%27d%20like%20to%20book%20a%20discovery%20session" target="_blank" rel="noopener noreferrer" style="text-decoration:underline;">WhatsApp Claudina instead &rarr;</a>
+        </p>
+        <script>
+          setTimeout(function () {
+            var frame = document.getElementById('ItPZNnfS7Tgn5XR41HeQ_1786475669505');
+            var fb = document.getElementById('booking-fallback');
+            if (frame && fb && frame.offsetHeight < 50) { fb.style.display = 'block'; }
+          }, 4000);
         </script>
       </div>
     </div>
