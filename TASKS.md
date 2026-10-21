@@ -90,6 +90,18 @@ Baseline: adjusted readiness 79/100 (dashboard snapshot 20/10/2026). Nothing dep
 - [ ] Decide whether to block training-only bots (GPTBot, ClaudeBot, Google-Extended, CCBot). Currently allowed.
 - [ ] Rebuild the cPanel zip (latest `have_and_share_cpanel_20261015.zip` predates these edits), upload, then re-run `geo audit` on the live site.
 
+## Persona brief (21/10/2026). Questions: `PERSONA-QUESTIONS-claudina-2026-10-26.md`
+
+Nothing uploaded or committed. Local only, not visually checked in a browser.
+
+- [x] Homepage "Who we work with" (4 links), 1:1 page three persona sections (`#executive-transition`, `#trapped-in-business`, `#lost-purpose`), Corporate `#silos` section, About "Who Claudina Works With".
+- [x] Schema: Service audiences (1:1, corporate), Person `knowsAbout`, `areaServed` + Pretoria, Gauteng. JSON-LD parses.
+- [x] Marks: Certified PQ®, Reality Check™ EcoMetric (About), Brain Gym® (Corporate). Banned words "breakthroughs"/"unlock their full potential" replaced; outcome promise softened.
+- [x] 10 articles got a closing link to their persona section.
+- [ ] Waiting on Claudina (meeting 26/10): examples, founder article, HR persona, numbers, mBIT Master vs Certified, testimonials, corporate steps, Project 2025.
+- [ ] Rich Results Test on the live pages after upload. Rebuild the cPanel zip.
+- [ ] Legacy 404 redirects (need Search Console data).
+
 ## Action plan 24/08/2026 sweep (20/10/2026)
 
 - Checked all 13 items against the working tree. #1 (`.htaccess` deny rule), #2 (24h reply copy), #3 (FAQPage removed), #5 (booking fallback), #6 (WhatsApp primary), #7 (COMENSA line), #11 (no TidyCal), #12 (llms.txt), #13 (BlogPosting dates) already done.
