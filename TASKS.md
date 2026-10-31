@@ -1,6 +1,43 @@
 # TASKS: Have & Share SEO/AEO follow-up
 
-Last updated: 12/10/2026. Source of truth for resuming. Full detail: `SEO-AEO-REVIEW-haveandshare-12102026.md`.
+Last updated: 31/10/2026. Source of truth for resuming. Full detail: `SEO-AEO-REVIEW-haveandshare-12102026.md`, and for 31/10 the deliverables in `DB23 AI Agency/seo-aeo-geo-skills/clients/have-and-share/*-2026-10-31.*`.
+
+## Session 31/10/2026: eight-skill SEO sweep (seo-cluster through seo-geo)
+
+Data: Search Console 22/09 to 17/10/2026 (147 impressions, 0 clicks), live site fetched 31/10, Google panel and Maps viewed in Chrome.
+
+**Findings that change the plan**
+- Live site = the 20/10 build. The 21/10 persona build was never uploaded.
+- The GBP **exists**: "Have & Share", category Life coach, Mon to Fri 08:00 to 17:00, entity `/g/11v11xp7qc`. The June, July and August local reports said it didn't. Corrected in the agency copy; the repo copies `LOCAL-SEO-ANALYSIS-haveandshare.md` and `…-24082026-update.md` are still wrong (gitignored, local only).
+- The GBP map pin sits in the **Eastern Cape** (near Makhanda), not Kempton Park. The business does not appear for "life coach Kempton Park" (16 results) or "life coach Glen Marais". Likely cause: the service area is set too wide.
+- **0 Google reviews.** There is nothing for review-respond to answer.
+- The imposter-syndrome cluster got 0 impressions this period. PQ and team alignment got all of them. Cluster plan v3 pivots there; imposter cluster parked.
+- The dashboard's "0 in striking distance" is wrong: 6 queries sit at positions 5 to 12, on low volume. 71 of the 147 impressions are a navigational LeanUK query; ignore it.
+- Schema is valid. The click lever is titles and meta descriptions; drafts are in the dev brief.
+
+**Done in the site (approved by Deon, in `have_and_share_cpanel_20261031.zip`, not uploaded)**
+- [x] Homepage `ProfessionalService`: `openingHoursSpecification` (Mon to Fri 08:00 to 17:00) and `hasMap` (GBP share link).
+- [x] Visible published/updated dates on cost, choose-a-coach, PQ vs mBIT, agenda and team-alignment posts (match the JSON-LD).
+- [x] Group page byline. Team-alignment post byline links to About.
+- [x] Agenda page linked to and from corporate, group, team-alignment and collaboration pages.
+
+**Needs from Deon**
+- [ ] Fix the GBP service area or show the address, so the pin moves to Gauteng. Send a screenshot of service area, categories and verification.
+- [ ] Upload `have_and_share_cpanel_20261031.zip`. It includes the unapproved 21/10 persona build and Claudina's story, so confirm with Claudina first.
+- [ ] Approve or edit the draft wording: GBP description, 7 titles and meta descriptions, PQ-page claim rewrites, homepage "unlock" line, review reply samples, business name ("Have & Share" or "Have & Share Coaching").
+- [ ] Confirm the `blog-pq-coaching.html` publish date: 06/03 (visible) or 19/03/2026 (schema)?
+- [ ] Check Bing Places, Bing Webmaster Tools, Apple Business Connect and a COMENSA directory listing.
+- [ ] `seo-maps` is disabled in `skillOverrides`. Decide on a paid geo-grid once the pin is fixed.
+
+**Needs from Claudina**
+- [ ] Master or Certified mBIT; "Positive Intelligence Quotient" vs "Positivity Quotient".
+- [ ] Anonymised client patterns, workshop criteria and timings, a corporate testimonial and a PQ testimonial (with permission).
+- [ ] Start asking every client for a Google review (plan and message in the local report).
+
+**Next, once the above lands**
+- [ ] Write the week-1 pages: workshop agenda rebuild and the new Saboteur Assessment results post (briefs in the agency folder).
+- [ ] Apply the HOLD items in `DEV-BRIEF-content-schema-2026-10-31.md` (A1 to A5, B1, C2, C3, D, E).
+- [ ] About two weeks after the GBP fix, repeat the Maps spot checks.
 
 ## Where we are
 
