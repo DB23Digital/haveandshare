@@ -2,6 +2,44 @@
 
 Last updated: 31/10/2026. Source of truth for resuming. Full detail: `SEO-AEO-REVIEW-haveandshare-12102026.md`, and for 31/10 the deliverables in `DB23 AI Agency/seo-aeo-geo-skills/clients/have-and-share/*-2026-10-31.*`.
 
+## Going international (notes 09/11/2026, tasks 17/11/2026)
+
+Source: artifact "Taking Have & Share International" (https://claude.ai/artifact/C3Eyerdiqy6ZxoieGxWxP4), now also Claudina's answer page. Her replies are stored in the page's database (`answers` collection); ask Claude to read them and turn them into changes.
+
+Recommendation: one site, one offer ("based in South Africa, travels to the team"), backed by real engagements. No country pages, no translations, keep `.co.za` for now.
+
+**Needs from Claudina (on the answer page)**
+- [ ] Countries worked in, and which organisations may be named.
+- [ ] What can be booked on site vs online; regions, notice period, travel costs, quote currency.
+- [ ] Licence cover abroad for PQ®, mBIT, Brain Gym®, Reality Check™ EcoMetric. ICF interest.
+- [ ] Target share of income from international work (drives the domain decision).
+- [ ] Purpose of haveandshare.net; ownership of haveandshare.com.
+- [ ] Approval to publish the 21/10 persona/story build.
+- [ ] Agree with the recommendation; approve or edit the draft homepage line.
+- [ ] Correct COMENSA wording on About ("highest professional standard" vs Master level above Senior).
+- [ ] 2 or 3 international case studies with permission.
+- [ ] OK to review the privacy policy for UK/EU clients.
+
+**Needs from Deon**
+- [ ] Share the answer page with Claudina by email invite as **Editor**, with no public link, or her answers won't save.
+- [ ] Get professional advice on visas, tax and insurance for work abroad (not researched).
+
+**Work, in order, once answers land**
+- [ ] 1. Publish the October update.
+- [ ] 2. Fix credential wording (COMENSA not "internationally accredited"). Update Corporate page (on-site travel offer) and homepage line.
+- [ ] 3. Build one international page (engagement before/during/after, countries, formats, time zones, notice, enquiry form with country, team size, dates). Add first case study.
+- [ ] 4. Update Group, Reality Check™, PQ®, mBIT, Educational Kinesiology, About, Contact.
+- [ ] 5. Broaden imposter syndrome, PQ®, mBIT and team-alignment articles; keep cost, choose-a-coach-Johannesburg and COMENSA posts local.
+- [ ] 6. Link haveandshare.net to the main site; fix its placeholder enquiry form.
+- [ ] 7. Keep GBP local (Gauteng); fix the Eastern Cape pin (see GBP task below).
+- [ ] 8. Get keyword data for method/problem terms (mBIT, PQ®, team alignment, on-site leadership workshops) before picking targets.
+- [ ] 9. Build mentions: mBIT, PQ®, COMENSA directories, LinkedIn, conference talks, HR publications, client write-ups.
+- [ ] 10. Monthly tracking: same AI-answer questions each month; Google impressions by country.
+- [ ] 11. Privacy policy review beyond POPIA for UK/EU.
+- [ ] 12. After 3 months on the updated site: review the `.co.za` vs global domain decision.
+
+Avoid: "Life coach <city>" pages, translated versions, any claim Claudina can't confirm.
+
 ## Session 31/10/2026: eight-skill SEO sweep (seo-cluster through seo-geo)
 
 Data: Search Console 22/09 to 17/10/2026 (147 impressions, 0 clicks), live site fetched 31/10, Google panel and Maps viewed in Chrome.
