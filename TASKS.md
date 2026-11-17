@@ -13,8 +13,6 @@ Recommendation: one site, one offer ("based in South Africa, travels to the team
 - [ ] What can be booked on site vs online; regions, notice period, travel costs, quote currency.
 - [ ] Licence cover abroad for PQ®, mBIT, Brain Gym®, Reality Check™ EcoMetric. ICF interest.
 - [ ] Target share of income from international work (drives the domain decision).
-- [ ] Purpose of haveandshare.net; ownership of haveandshare.com.
-- [ ] Approval to publish the 21/10 persona/story build.
 - [ ] Agree with the recommendation; approve or edit the draft homepage line.
 - [ ] Correct COMENSA wording on About ("highest professional standard" vs Master level above Senior).
 - [ ] 2 or 3 international case studies with permission.
@@ -23,6 +21,7 @@ Recommendation: one site, one offer ("based in South Africa, travels to the team
 **Needs from Deon**
 - [ ] Share the answer page with Claudina by email invite as **Editor**, with no public link, or her answers won't save.
 - [ ] Get professional advice on visas, tax and insurance for work abroad (not researched).
+- [ ] Publishing the 21/10 persona/story build: handled by Deon, removed from Claudina's page on 17/11/2026.
 
 **Work, in order, once answers land**
 - [ ] 1. Publish the October update.
@@ -30,7 +29,7 @@ Recommendation: one site, one offer ("based in South Africa, travels to the team
 - [ ] 3. Build one international page (engagement before/during/after, countries, formats, time zones, notice, enquiry form with country, team size, dates). Add first case study.
 - [ ] 4. Update Group, Reality Check™, PQ®, mBIT, Educational Kinesiology, About, Contact.
 - [ ] 5. Broaden imposter syndrome, PQ®, mBIT and team-alignment articles; keep cost, choose-a-coach-Johannesburg and COMENSA posts local.
-- [ ] 6. Link haveandshare.net to the main site; fix its placeholder enquiry form.
+- [x] 6. haveandshare.net: dropped 17/11/2026. It is Claudina's funnel landing page, not part of the international plan.
 - [ ] 7. Keep GBP local (Gauteng); fix the Eastern Cape pin (see GBP task below).
 - [ ] 8. Get keyword data for method/problem terms (mBIT, PQ®, team alignment, on-site leadership workshops) before picking targets.
 - [ ] 9. Build mentions: mBIT, PQ®, COMENSA directories, LinkedIn, conference talks, HR publications, client write-ups.
