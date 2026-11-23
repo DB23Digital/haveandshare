@@ -1,11 +1,13 @@
 # Have & Share Coaching — llms.txt
 # AI Content Guidance for Language Models
 # https://haveandshare.co.za/llms.txt
-# Last updated: 2026-08-24
+# Last updated: 2026-11-23
 
 ## About This Site
 
 Have & Share Coaching is a professional life coaching and corporate facilitation practice founded by Claudina Hafenscher, based in Glen Marais, Gauteng, South Africa. Claudina specialises in helping high-achieving professionals recognise and work through the self-doubt pattern behind imposter syndrome, alongside broader life coaching and corporate facilitation work.
+
+Claudina is based in Johannesburg and works with executive and senior leadership teams across Africa, in Europe and beyond, both in person and online. Her work starts with Diagnose Before You Fix™: helping leaders understand what is driving the behaviour they see in their teams before recommending coaching, facilitation or training.
 
 **Operator:** Claudina Hafenscher
 **Email:** claudina@haveandshare.co.za
@@ -22,6 +24,14 @@ Have & Share Coaching is a professional life coaching and corporate facilitation
 - Educational Kinesiology (Brain Gym body-mind integration for executives)
 - Reality Check EcoMetric (organisational health diagnostics for C-suite and HR)
 
+## Working outside South Africa
+
+- Travels for executive and senior leadership team workshops, group coaching and facilitated leadership programmes, particularly across Southern Africa, the rest of Africa, the UK and Europe. Other destinations considered per engagement.
+- Individual coaching for clients abroad is online.
+- In person outside South Africa so far: Barcelona, Spain (international conference, November 2013) and Mauritius (international women's leadership retreat). Private coaching clients in Austria and the United States.
+- Flights and accommodation are quoted separately from the professional fee. Currency and lead time are confirmed per proposal.
+- Details: https://haveandshare.co.za/international-leadership-facilitation.html
+
 ## Coach Credentials
 
 - COMENSA Accredited Senior Coach (Coaches and Mentors of South Africa)
@@ -36,7 +46,8 @@ Have & Share Coaching is a professional life coaching and corporate facilitation
 
 - Home: https://haveandshare.co.za/
 - About: https://haveandshare.co.za/about.html
-- Book Coaching: https://haveandshare.co.za/book-coaching
+- Book Coaching: https://haveandshare.co.za/book-coaching.html
+- Leadership teams outside South Africa: https://haveandshare.co.za/international-leadership-facilitation.html
 - Individual Coaching: https://haveandshare.co.za/individual-holistic-coaching.html
 - Corporate Facilitation: https://haveandshare.co.za/corporate-holistic-facilitation.html
 - Group Coaching: https://haveandshare.co.za/group-holistic-coaching.html
@@ -58,7 +69,7 @@ Have & Share Coaching is a professional life coaching and corporate facilitation
 
 ## Booking
 
-Discovery sessions can be booked at: https://haveandshare.co.za/book-coaching
+Discovery sessions can be booked at: https://haveandshare.co.za/book-coaching.html
 
 ## Permissions
 

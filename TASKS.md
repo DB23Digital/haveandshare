@@ -1,6 +1,6 @@
 # TASKS: Have & Share SEO/AEO follow-up
 
-Last updated: 31/10/2026. Source of truth for resuming. Full detail: `SEO-AEO-REVIEW-haveandshare-12102026.md`, and for 31/10 the deliverables in `DB23 AI Agency/seo-aeo-geo-skills/clients/have-and-share/*-2026-10-31.*`.
+Last updated: 23/11/2026. Source of truth for resuming. Full detail: `SEO-AEO-REVIEW-haveandshare-12102026.md`, and for 31/10 the deliverables in `DB23 AI Agency/seo-aeo-geo-skills/clients/have-and-share/*-2026-10-31.*`.
 
 ## Going international (notes 09/11/2026, tasks 17/11/2026)
 
@@ -8,15 +8,23 @@ Source: artifact "Taking Have & Share International" (https://claude.ai/artifact
 
 Recommendation: one site, one offer ("based in South Africa, travels to the team"), backed by real engagements. No country pages, no translations, keep `.co.za` for now.
 
-**Needs from Claudina (on the answer page)**
-- [ ] Countries worked in, and which organisations may be named.
-- [ ] What can be booked on site vs online; regions, notice period, travel costs, quote currency.
-- [ ] Licence cover abroad for PQ®, mBIT, Brain Gym®, Reality Check™ EcoMetric. ICF interest.
-- [ ] Target share of income from international work (drives the domain decision).
-- [ ] Agree with the recommendation; approve or edit the draft homepage line.
-- [ ] Correct COMENSA wording on About ("highest professional standard" vs Master level above Senior).
-- [ ] 2 or 3 international case studies with permission.
-- [ ] OK to review the privacy policy for UK/EU clients.
+**Claudina's answers (received 23/11/2026)**
+- Agrees: one site, overseas clients online or in person. Approved homepage line used verbatim.
+- Countries: in person in Barcelona (Business Today International Conference, Nov 2013) and Mauritius (women's leadership retreat); private coaching clients in Austria and the US (stay anonymous).
+- Travels for: executive/senior leadership team workshops, group coaching, facilitated leadership programmes. Individual coaching online. Reality Check®/EcoMetric™ and Brain Gym® confirmed per destination.
+- Regions: Southern Africa, rest of Africa, UK, Europe; others case by case. Notice and currency confirmed per engagement. Travel quoted separately from fee.
+- Licences: she will confirm PQ®, mBIT, Brain Gym®, EcoMetric™ terms before the site advertises them abroad. Until then, lead with executive coaching and leadership facilitation.
+- COMENSA: use "COMENSA Accredited Senior Coach"; drop "highest professional standard". ICF: maybe later.
+- Target: some (10% to 30%), no deadline. Privacy notice: draft for her review.
+- New positioning: Diagnose Before You Fix™, speak to CEOs and executive teams, practical language, real examples.
+
+**Needs from Claudina (still open)**
+- [ ] OK to name Business Today Simulations (Barcelona) and DEBOHA (Mauritius), and the "My Future Today" simulation name. The page uses anonymised versions until she says yes.
+- [ ] Review `international-leadership-facilitation.html` and the Corporate `#international` section before upload.
+- [ ] One piece of participant feedback or an observed change for the Barcelona or Mauritius example.
+- [ ] Answer the 7 questions at the top of `PRIVACY-NOTICE-DRAFT-2026-11-23.md`, then approve the draft.
+- [ ] Mark: "Reality Check®" + "EcoMetric™" (her answer) vs "Reality Check™ EcoMetric" (site). Which is correct?
+- [ ] Licence terms abroad for PQ®, mBIT, Brain Gym®, EcoMetric™.
 
 **Needs from Deon**
 - [ ] Share the answer page with Claudina by email invite as **Editor**, with no public link, or her answers won't save.
@@ -25,8 +33,8 @@ Recommendation: one site, one offer ("based in South Africa, travels to the team
 
 **Work, in order, once answers land**
 - [ ] 1. Publish the October update.
-- [ ] 2. Fix credential wording (COMENSA not "internationally accredited"). Update Corporate page (on-site travel offer) and homepage line.
-- [ ] 3. Build one international page (engagement before/during/after, countries, formats, time zones, notice, enquiry form with country, team size, dates). Add first case study.
+- [x] 2. Credential wording on About (23/11/2026; no "internationally accredited" found anywhere). Corporate `#international` section + FAQ answer. Homepage geo line.
+- [~] 3. `international-leadership-facilitation.html` built 23/11/2026 (Diagnose Before You Fix™, what travels, regions, two anonymised examples, practical terms, email/WhatsApp enquiry asking country, team size, dates). In sitemap; linked from Corporate and Contact. No form (site has none). Waiting on Claudina review and name approvals.
 - [ ] 4. Update Group, Reality Check™, PQ®, mBIT, Educational Kinesiology, About, Contact.
 - [ ] 5. Broaden imposter syndrome, PQ®, mBIT and team-alignment articles; keep cost, choose-a-coach-Johannesburg and COMENSA posts local.
 - [x] 6. haveandshare.net: dropped 17/11/2026. It is Claudina's funnel landing page, not part of the international plan.
@@ -34,10 +42,41 @@ Recommendation: one site, one offer ("based in South Africa, travels to the team
 - [ ] 8. Get keyword data for method/problem terms (mBIT, PQ®, team alignment, on-site leadership workshops) before picking targets.
 - [ ] 9. Build mentions: mBIT, PQ®, COMENSA directories, LinkedIn, conference talks, HR publications, client write-ups.
 - [ ] 10. Monthly tracking: same AI-answer questions each month; Google impressions by country.
-- [ ] 11. Privacy policy review beyond POPIA for UK/EU.
+- [~] 11. Privacy notice draft: `PRIVACY-NOTICE-DRAFT-2026-11-23.md`. Waiting on Claudina answers and an adviser check of UK/EU sections. Likely needs a cookie consent banner.
 - [ ] 12. After 3 months on the updated site: review the `.co.za` vs global domain decision.
 
+- [ ] 13. Homepage repositioning towards CEOs and executive teams with Diagnose Before You Fix™ (her Q16). Changes the H1 and persona order, so needs Deon's go-ahead and wording sign-off.
+- [ ] 14. Existing pages still advertise PQ®, mBIT and Educational Kinesiology as "Online / Worldwide" (schema `areaServed` and body copy). Decide whether to pull back until Claudina confirms licence terms.
+
 Avoid: "Life coach <city>" pages, translated versions, any claim Claudina can't confirm.
+
+## Session 23/11/2026: sitewide SEO/AEO/GEO and international pass
+
+Scanned all 35 public pages (title, description, canonical, OG, H1, JSON-LD, sitemap, inbound links). All JSON-LD parses. Every page has one H1 and a canonical. Not checked in a browser; no live, Search Console or Lighthouse data this session.
+
+**Done (local, not uploaded, not committed)**
+- [x] International page: `Service` JSON-LD (areaServed Southern Africa, Africa, UK, Europe, online) and a visible Q&A (working abroad, time zones, travel costs, accreditation).
+- [x] Homepage: new FAQ "Do you work with leadership teams outside South Africa?" in both `FAQPage` JSON-LD and the visible list. Corporate and group items in the `ItemList` now say "South Africa, Africa, the UK and Europe, in person or online". `ProfessionalService` areaServed left local on purpose (GBP).
+- [x] Corporate and Group `Service` areaServed widened to the regions Claudina named. Group FAQ answers "teams outside South Africa".
+- [x] About: names the countries (Barcelona, Mauritius, Austria, US; no client names) and links the international page.
+- [x] Agenda post links the international page. International page now has 6 inbound links (home, about, corporate x2, group, contact, agenda).
+- [x] `llms.txt`: "Working outside South Africa" section, Diagnose Before You Fix™, booking URL fixed to `book-coaching.html` (nginx ignores the `.htaccess` rewrite).
+- [x] `coaching-partners.html`: OG tags added. Sitemap `lastmod` set to 2026-11-23 on the edited pages.
+
+- [x] Built `have_and_share_cpanel_20261123.zip` (162 files, 51 MB, 37 HTML pages; same exclusions as the 20/10 zip, plus the new page). Not uploaded. Earlier 12/10 and 31/10 zips are no longer on disk.
+
+**Needs a decision (Deon)**
+- [ ] Upload `have_and_share_cpanel_20261123.zip` only after Claudina approves the international page, and the 21/10 persona build and her story (both are in the zip).
+- [ ] 4 titles over 60 characters: overcome-imposter (75), improve-team-collaboration (74), choose-life-coach (67), find-purpose (66). Rewrites already drafted in the 31/10 dev brief.
+- [ ] `book-coaching.html` is not in the sitemap. Intentional?
+- [ ] After upload: submit the new page via IndexNow (key file exists) and request indexing in Search Console.
+- [ ] Footer DB23 credit is missing on every page.
+
+**Needs from Claudina**
+- [ ] Does she coach or facilitate in any language other than English (for example German, given Austrian clients)? A language list is one of the strongest international signals and would go in `knowsLanguage` and on the page.
+- [ ] Update LinkedIn headline/About and the PQ marketplace profile to say she works with leadership teams in Africa, the UK and Europe, in person and online. AI answers lean on these profiles as much as on the site.
+
+**Still open from earlier lists:** homepage repositioning (13), licensed methods "Online / Worldwide" (14), broaden articles (5), client names and case-study feedback, privacy notice answers.
 
 ## Session 31/10/2026: eight-skill SEO sweep (seo-cluster through seo-geo)
 
